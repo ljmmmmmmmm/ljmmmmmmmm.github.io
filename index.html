@@ -31,55 +31,71 @@
 <body>
 
 <div class="universal-outer">
-  
+  <style>
+  /* 使“蓝桉已遇释槐鸟”居中对齐 */
+  .menu-site-name,
+  .mobile-menu-site-name {
+    text-align: center; /* 水平居中 */
+    margin: 0 auto; /* 居中对齐的辅助设置 */
+    font-size: 20px; /* 可根据需要调整字体大小 */
+    font-weight: bold; /* 字体加粗 */
+  }
+
+  /* 可选：为移动端文字增加额外样式 */
+  .mobile-menu-site-name {
+    padding: 10px 0; /* 上下间距 */
+    font-size: 18px; /* 可根据需要调整字体大小 */
+  }
+</style>
+
 <div class="menu-outer">
-    <div class="menu-inner">
-        <div class="menu-site-name">
-            <!-- 点击跳转到 xuziyi.xyz -->
-            <a href="https://xuziyi.xyz" target="_blank" rel="noopener noreferrer">
-                蓝桉已遇释槐鸟
-            </a>
-        </div>
-        <div class="menu-group">
-            <ul class="menu-ul">
-                
-                <a href="https://linjiaming.xyz/" class="nav-link">
-                    <li class="menu-li">
-                        首页
-                    </li>
-                </a>
-                
-                <li class="menu-li" id="mobile-menu">
-                    <i class="ri-menu-line"></i>
-                </li>
-            </ul>
-        </div>
+  <div class="menu-inner">
+    <div class="menu-site-name">
+      <!-- 点击跳转到 xuziyi.xyz -->
+      <a href="https://xuziyi.xyz" target="_blank" rel="noopener noreferrer">
+        蓝桉已遇释槐鸟
+      </a>
     </div>
+    <div class="menu-group">
+      <ul class="menu-ul">
+        
+        <a href="https://linjiaming.xyz/" class="nav-link">
+          <li class="menu-li">
+            首页
+          </li>
+        </a>
+        
+        <li class="menu-li" id="mobile-menu">
+          <i class="ri-menu-line"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <!-- 移动端 -->
 <div id="mobile-main">
-    <div class="mobile-menu-inner">
-        <div class="mobile-menu-site-name">
-            <!-- 点击跳转到 xuziyi.xyz -->
-            <a href="https://xuziyi.xyz" target="_blank" rel="noopener noreferrer">
-                蓝桉已遇释槐鸟
-            </a>
-        </div>
-        <div class="mobile-menu-group" id="mobile-close">
-            <i class="ri-close-line"></i>
-        </div>
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-site-name">
+      <!-- 点击跳转到 xuziyi.xyz -->
+      <a href="https://xuziyi.xyz" target="_blank" rel="noopener noreferrer">
+        蓝桉已遇释槐鸟
+      </a>
     </div>
+    <div class="mobile-menu-group" id="mobile-close">
+      <i class="ri-close-line"></i>
+    </div>
+  </div>
 
-    <div class="mobile-menu-div">
-        
-        <a href="https://linjiaming.xyz/" class="mobile-nav-link">
-            <div class="mobile-menu-child">
-                <span>首页</span>
-            </div>
-        </a>
-        
-    </div>
+  <div class="mobile-menu-div">
+    
+    <a href="https://linjiaming.xyz/" class="mobile-nav-link">
+      <div class="mobile-menu-child">
+        <span>首页</span>
+      </div>
+    </a>
+    
+  </div>
 </div>
 
 
